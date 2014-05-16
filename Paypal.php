@@ -5,7 +5,7 @@
  * @author Andrey Klimenko <andrey.iemail@gmail.com>
  */
 
-namespace ak;
+namespace ak\paypal;
 
 /**
  * Class Paypal.
