@@ -28,7 +28,7 @@ function D($object, $exit = false)
     echo '<br />';
 
     if ($exit) {
-        \Yii::$app->end();
+        exit();
     }
 
     return null;
@@ -52,6 +52,7 @@ class Paypal extends Component
     //endregion
 
     private $_token = null;
+    /** @var ApiContext */
     private $_apiContext = null;
 
     protected $errors = [];
@@ -64,16 +65,17 @@ class Paypal extends Component
 
     public function authorize()
     {
-        $this->_apiContext = new ApiContext(new OAuthTokenCredential($this->clientId, $this->clientSecret));
-
-//        if (is_null($this->_token) || is_null($this->_apiContext)) {
-//            $credentials       = new OAuthTokenCredential($this->clientId, $this->clientSecret);
-//            $this->_token      = $credentials->getAccessToken(array('mode' => 'sandbox'));
-//        }
+        $credentials = new OAuthTokenCredential($this->clientId, $this->clientSecret);
+        if (is_null($this->_token)) {
+            $credentials->getAccessToken(['mode' => 'sandbox']);
+        }
+        $this->_apiContext = new ApiContext($credentials);
     }
 
     public function payDemo()
     {
+        $this->authorize();
+
         $addr = new Address();
         $addr->setLine1('52 N Main ST');
         $addr->setCity('Johnstown');
