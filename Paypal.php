@@ -5,7 +5,7 @@
  * @author Andrey Klimenko <andrey.iemail@gmail.com>
  */
 
-namespace yii2\paypal;
+namespace ak;
 
 use yii\base\Component;
 
