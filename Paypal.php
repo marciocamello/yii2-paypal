@@ -9,6 +9,8 @@
 
 namespace ak;
 
+define('PP_CONFIG_PATH', __DIR__);
+
 use PayPal\Api\Address;
 use PayPal\Api\Amount;
 use PayPal\Api\CreditCard;
