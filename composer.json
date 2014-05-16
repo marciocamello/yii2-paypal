@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "andrey-klimenko\\yii2-paypal\\": ""
+            "yii2\\paypal\\": ""
         }
     }
 }
