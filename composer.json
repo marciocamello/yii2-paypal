@@ -14,7 +14,9 @@
             "email": "andrey.iemail@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
+        "php": ">=5.5.0",
         "yiisoft/yii2": "*"
     },
     "autoload": {
