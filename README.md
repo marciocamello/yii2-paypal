@@ -1,7 +1,7 @@
 PayPal extension for the Yii2
 ===========
 
-PayPal payment extension fpr the Yii2.
+PayPal payment extension for the Yii2.
 
 Installation
 ====
