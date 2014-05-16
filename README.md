@@ -6,7 +6,7 @@ PayPal payment extension fpr the Yii2.
 Installation
 ====
 
-1. Add to the composer.json file following section:
+* Add to the composer.json file following section:
 
 ```
 "repositories": [
@@ -26,7 +26,7 @@ Installation
 ],
 ```
 
-2. Add to the composer.json at the section "require" following line:
+* Add to the composer.json at the section "require" following line:
 
 ```
 "andrey-klimenko/yii2-paypal": "master"
