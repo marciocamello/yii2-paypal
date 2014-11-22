@@ -20,7 +20,7 @@
         "yiisoft/yii2": "*",
         "ext-curl": "*",
         "ext-json": "*",
-        "paypal/rest-api-sdk-php": "0.8.*"
+        "paypal/rest-api-sdk-php": "*"
     },
     "autoload": {
         "psr-4": {
