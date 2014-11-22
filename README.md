@@ -14,8 +14,8 @@ Add to the composer.json file following section:
 
 Add to to you Yii2 config file this part with component settings:
 
-```
-'paypal'       => [
+```php
+'paypal'=> [
             'class'        => 'ak\Paypal',
             'clientId'     => 'you_client_id',
             'clientSecret' => 'you_client_secret',
