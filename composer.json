@@ -1,12 +1,12 @@
 {
-    "name": "andrey-klimenko/yii2-paypal",
+    "name": "marciocamello/yii2-paypal",
     "description": "The PayPal extension for the Yii2 framework",
     "keywords": ["yii2", "paypal"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/andrey-klimenko/yii2-paypal/issues",
-        "source": "https://github.com/andrey-klimenko/yii2-paypal"
+        "issues": "https://github.com/marciocamello/yii2-paypal/issues",
+        "source": "https://github.com/marciocamello/yii2-paypal"
     },
     "authors": [
         {
