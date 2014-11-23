@@ -9,7 +9,11 @@ Installation
 Add to the composer.json file following section:
 
 ```
-"andrey-klimenko/yii2-paypal": "dev-master"
+php composer.phar require --prefer-dist marciocamello/yii2-paypal "*"
+```
+
+```
+"marciocamello/yii2-paypal": "dev-master"
 ```
 
 Add to to you Yii2 config file this part with component settings:
