@@ -30,7 +30,7 @@ use PayPal\Api\ItemList;
 use PayPal\Api\RedirectUrls;
 use PayPal\Rest\ApiContext;
 
-class PaypalWidget extends Component
+class Paypal extends Component
 {
     //region Mode (production/development)
     const MODE_SANDBOX = 'sandbox';
