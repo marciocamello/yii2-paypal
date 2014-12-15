@@ -10,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "Andrey Klimenko",
-            "email": "andrey.iemail@gmail.com"
+            "name": "Marcio Camello",
+            "email": "marciocamello@outlook.com"
         }
     ],
     "minimum-stability": "dev",
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ak\\": ""
+            "marciocamello\\": ""
         }
     }
 }
