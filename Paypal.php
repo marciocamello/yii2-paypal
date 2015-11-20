@@ -7,7 +7,7 @@
  * @see https://developer.paypal.com/webapps/developer/applications/accounts
  */
 
-namespace marciocamello\yii2-paypal;
+namespace marciocamello;
 
 define('PP_CONFIG_PATH', __DIR__);
 
