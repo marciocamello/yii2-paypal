@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "marciocamello\\": ""
+            "marciocamello\\yii2\\paypal\\": ""
         }
     }
 }
